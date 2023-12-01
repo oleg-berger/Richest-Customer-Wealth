@@ -3,11 +3,11 @@
     Console.Write("Enter how much money you have ");
     string inputStr = Convert.ToString(Console.ReadLine());
 
-    string[] inputArray = inputStr1.Split(' ');
+    string[] inputArray = inputStr.Split(' ');
     
 
 
-    int[] account = new int[inputArray1.Length];
+    int[] account = new int[inputArray.Length];
     int sumAccount = 0;
 
     for(int i = 0; i < inputArray.Length; i++)
