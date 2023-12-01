@@ -1,4 +1,4 @@
-﻿static int sumArray()
+static int sumArray()
 {
     Console.Write("Enter how much money you have ");
     string inputStr = Convert.ToString(Console.ReadLine());
@@ -12,7 +12,7 @@
 
     for(int i = 0; i < inputArray.Length; i++)
     {
-        account[i] = Convert.ToInt32(inputArray1[i]);
+        account[i] = Convert.ToInt32(inputArray[i]);
         sumAccount += account[i]; 
     }
     return(sumAccount);
@@ -35,5 +35,6 @@ else if (user2 > user1)
 {
     Console.WriteLine($"user 2 is richer than user 1. He has weaalth = {user2}");
 }
+
 
 
